@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\guilherme.smcosta\\Documents\\Exerc\u00EDcios\\combobox_elementos\\",
+  "WorkspaceRootPath": "C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|c:\\users\\guilherme.smcosta\\documents\\exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|c:\\users\\guilherme.smcosta\\documents\\exercicios\\combobox_elementos\\combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|solutionrelative:combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|c:\\users\\guilherme.smcosta\\documents\\exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E4701500-F413-4040-B29F-9C2A5829CEF7}|combobox_elementos\\combobox_elementos.csproj|solutionrelative:combobox_elementos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\Exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\combobox_elementos\\Form1.cs",
               "RelativeDocumentMoniker": "combobox_elementos\\Form1.cs",
-              "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\Exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\Form1.cs*",
-              "RelativeToolTip": "combobox_elementos\\Form1.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDAAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\combobox_elementos\\Form1.cs",
+              "RelativeToolTip": "combobox_elementos\\Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T17:50:56.474Z",
               "EditorCaption": ""
@@ -37,10 +37,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\Exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\combobox_elementos\\Form1.cs",
               "RelativeDocumentMoniker": "combobox_elementos\\Form1.cs",
-              "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\Exerc\u00EDcios\\combobox_elementos\\combobox_elementos\\Form1.cs [Design]*",
-              "RelativeToolTip": "combobox_elementos\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\exercicios\\combobox_elementos\\combobox_elementos\\Form1.cs [Design]",
+              "RelativeToolTip": "combobox_elementos\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T17:37:46.008Z",
               "EditorCaption": " [Design]"
