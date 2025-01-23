@@ -30,10 +30,9 @@ namespace combobox_elementos
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             if (txt_nome.TextLength == 0) 
-            {
                     MessageBox.Show("Por favor, digite algo!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             txt_nome.Focus();
-
+            { 
                 cbb_listar.Items.Add(txt_nome.Text);
                 txt_nome.Clear();
                 txt_nome.Focus();
@@ -43,11 +42,10 @@ namespace combobox_elementos
         private void btn_remover_Click(object sender, EventArgs e)
         {
             if (cbb_listar.SelectedIndex == 0)
-            {
                 MessageBox.Show("Por favor, digite algo!", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+            { 
                 cbb_listar.Items.Remove(cbb_listar.SelectedItem);
-                cbb_listar.SelectedIndex = 0;
+                cbb_listar.SelectedItem = 0;
             }
 
         }
