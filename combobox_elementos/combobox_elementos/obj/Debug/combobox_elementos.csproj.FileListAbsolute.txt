@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\bin\Debug\combobox_elementos.exe.config
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\bin\Debug\combobox_elementos.exe
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\bin\Debug\combobox_elementos.pdb
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.Form1.resources
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.exe
+C:\Users\guilherme.smcosta\Documents\Exercícios\combobox_elementos\combobox_elementos\obj\Debug\combobox_elementos.pdb
