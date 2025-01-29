@@ -73,6 +73,16 @@ namespace combobox_gastoKcal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_fundo {
+            get {
+                object obj = ResourceManager.GetObject("img-fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap peso {
             get {
                 object obj = ResourceManager.GetObject("peso", resourceCulture);
