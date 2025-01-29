@@ -47,8 +47,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(134, 104);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(147, 107);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 16);
             this.label1.TabIndex = 0;
@@ -66,7 +66,7 @@
             "Maratona",
             "Andar de bicicleta",
             "Andar de patins"});
-            this.cbb_atividadeFisica.Location = new System.Drawing.Point(391, 99);
+            this.cbb_atividadeFisica.Location = new System.Drawing.Point(404, 102);
             this.cbb_atividadeFisica.Name = "cbb_atividadeFisica";
             this.cbb_atividadeFisica.Size = new System.Drawing.Size(178, 21);
             this.cbb_atividadeFisica.TabIndex = 1;
@@ -76,8 +76,8 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(208, 151);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(221, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(185, 16);
             this.label2.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             // txt_peso
             // 
-            this.txt_peso.Location = new System.Drawing.Point(391, 147);
+            this.txt_peso.Location = new System.Drawing.Point(404, 150);
             this.txt_peso.Name = "txt_peso";
             this.txt_peso.Size = new System.Drawing.Size(66, 20);
             this.txt_peso.TabIndex = 3;
@@ -95,8 +95,8 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(106, 188);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(119, 191);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(285, 16);
             this.label3.TabIndex = 4;
@@ -104,7 +104,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(391, 188);
+            this.numericUpDown1.Location = new System.Drawing.Point(404, 191);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown1.TabIndex = 6;
@@ -114,8 +114,8 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(217, 234);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(230, 237);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(173, 16);
             this.label4.TabIndex = 7;
@@ -123,14 +123,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(391, 230);
+            this.textBox1.Location = new System.Drawing.Point(404, 233);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(66, 20);
             this.textBox1.TabIndex = 8;
             // 
             // btn_calcular
             // 
-            this.btn_calcular.Location = new System.Drawing.Point(109, 279);
+            this.btn_calcular.Location = new System.Drawing.Point(122, 282);
             this.btn_calcular.Name = "btn_calcular";
             this.btn_calcular.Size = new System.Drawing.Size(118, 31);
             this.btn_calcular.TabIndex = 9;
@@ -139,7 +139,7 @@
             // 
             // btn_limpar
             // 
-            this.btn_limpar.Location = new System.Drawing.Point(279, 279);
+            this.btn_limpar.Location = new System.Drawing.Point(292, 282);
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.Size = new System.Drawing.Size(118, 31);
             this.btn_limpar.TabIndex = 10;
@@ -148,7 +148,7 @@
             // 
             // btn_sair
             // 
-            this.btn_sair.Location = new System.Drawing.Point(451, 279);
+            this.btn_sair.Location = new System.Drawing.Point(464, 282);
             this.btn_sair.Name = "btn_sair";
             this.btn_sair.Size = new System.Drawing.Size(118, 31);
             this.btn_sair.TabIndex = 11;
@@ -159,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::combobox_gastoKcal.Properties.Resources.ideia;
+            this.BackgroundImage = global::combobox_gastoKcal.Properties.Resources.peso;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(703, 416);
             this.Controls.Add(this.label1);

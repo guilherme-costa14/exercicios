@@ -8,3 +8,13 @@ C:\Users\guilherme.smcosta\Documents\exercicios\combobox_gastoKcal\combobox_gast
 C:\Users\guilherme.smcosta\Documents\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.smcosta\Documents\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.exe
 C:\Users\guilherme.smcosta\Documents\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\bin\Debug\combobox_gastoKcal.exe.config
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\bin\Debug\combobox_gastoKcal.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\bin\Debug\combobox_gastoKcal.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.Form1.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\combobox_gastoKcal\combobox_gastoKcal\obj\Debug\combobox_gastoKcal.pdb
