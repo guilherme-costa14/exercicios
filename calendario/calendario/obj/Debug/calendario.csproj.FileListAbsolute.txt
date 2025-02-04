@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\bin\Debug\calendario.exe.config
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\bin\Debug\calendario.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\bin\Debug\calendario.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.Form1.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calendario\calendario\obj\Debug\calendario.pdb
