@@ -1,0 +1,11 @@
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\bin\Debug\telaDeLogin.exe.config
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\bin\Debug\telaDeLogin.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\bin\Debug\telaDeLogin.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.Form1.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\telaDeLogin\telaDeLogin\obj\Debug\telaDeLogin.FormLogin.resources
