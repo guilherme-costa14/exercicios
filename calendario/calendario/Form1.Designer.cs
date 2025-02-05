@@ -216,6 +216,7 @@
             // 
             // notifyIcon
             // 
+            this.notifyIcon.ContextMenuStrip = this.Itens;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
             this.notifyIcon.Text = "Calendário";
             this.notifyIcon.Visible = true;
@@ -227,26 +228,28 @@
             this.Mensagem,
             this.Fechar});
             this.Itens.Name = "contextMenuStrip1";
-            this.Itens.Size = new System.Drawing.Size(134, 70);
+            this.Itens.Size = new System.Drawing.Size(181, 92);
             this.Itens.Text = "Itens";
+            this.Itens.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Itens_ItemClicked);
             // 
             // Restaurar
             // 
             this.Restaurar.Name = "Restaurar";
-            this.Restaurar.Size = new System.Drawing.Size(133, 22);
+            this.Restaurar.Size = new System.Drawing.Size(180, 22);
             this.Restaurar.Text = "Restaurar";
             // 
             // Mensagem
             // 
             this.Mensagem.Name = "Mensagem";
-            this.Mensagem.Size = new System.Drawing.Size(133, 22);
+            this.Mensagem.Size = new System.Drawing.Size(180, 22);
             this.Mensagem.Text = "Mensagem";
             // 
             // Fechar
             // 
             this.Fechar.Name = "Fechar";
-            this.Fechar.Size = new System.Drawing.Size(133, 22);
+            this.Fechar.Size = new System.Drawing.Size(180, 22);
             this.Fechar.Text = "Fechar";
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // Form1
             // 

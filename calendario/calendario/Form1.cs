@@ -40,5 +40,26 @@ namespace calendario
         {
             Close();
         }
+
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Itens_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if (e.ClickedItem.Name.ToString() == "Fechar")
+            {
+                this.Close();
+            }
+            else if (e.ClickedItem.Name.ToString() == "Restaurar")
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if (e.ClickedItem.Name.ToString() == "Mensagem")
+            {
+                MessageBox.Show("Você está lendo essa mensagem!");
+            }
+        }
     }
 }
