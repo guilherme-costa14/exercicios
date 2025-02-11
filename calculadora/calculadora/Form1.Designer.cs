@@ -53,6 +53,24 @@
             this.btnMod = new System.Windows.Forms.Button();
             this.btnExponenciacao = new System.Windows.Forms.Button();
             this.btnRaiz = new System.Windows.Forms.Button();
+            this.txtValor1 = new System.Windows.Forms.TextBox();
+            this.txtValor2 = new System.Windows.Forms.TextBox();
+            this.lblSinalOperacao = new System.Windows.Forms.Label();
+            this.btnCalcular = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.txtResultado1 = new System.Windows.Forms.TextBox();
+            this.txtValor2Replica = new System.Windows.Forms.TextBox();
+            this.btnCalcular2 = new System.Windows.Forms.Button();
+            this.txtValor1Replica = new System.Windows.Forms.TextBox();
+            this.txtResultado2Replica = new System.Windows.Forms.TextBox();
+            this.btnCalcular3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblResultado2 = new System.Windows.Forms.Label();
+            this.lblResultado3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn7
@@ -374,19 +392,222 @@
             this.btnRaiz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRaiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.btnRaiz.ForeColor = System.Drawing.Color.Transparent;
-            this.btnRaiz.Location = new System.Drawing.Point(227, 256);
+            this.btnRaiz.Location = new System.Drawing.Point(227, 254);
             this.btnRaiz.Name = "btnRaiz";
-            this.btnRaiz.Size = new System.Drawing.Size(71, 42);
+            this.btnRaiz.Size = new System.Drawing.Size(71, 43);
             this.btnRaiz.TabIndex = 24;
             this.btnRaiz.Text = "Raiz²";
             this.btnRaiz.UseVisualStyleBackColor = false;
             this.btnRaiz.Click += new System.EventHandler(this.btnRaiz_Click);
             // 
+            // txtValor1
+            // 
+            this.txtValor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtValor1.Location = new System.Drawing.Point(415, 26);
+            this.txtValor1.Name = "txtValor1";
+            this.txtValor1.Size = new System.Drawing.Size(95, 29);
+            this.txtValor1.TabIndex = 25;
+            this.txtValor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValor1.TextChanged += new System.EventHandler(this.txtValor1_TextChanged);
+            // 
+            // txtValor2
+            // 
+            this.txtValor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtValor2.Location = new System.Drawing.Point(543, 26);
+            this.txtValor2.Name = "txtValor2";
+            this.txtValor2.Size = new System.Drawing.Size(95, 29);
+            this.txtValor2.TabIndex = 26;
+            this.txtValor2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValor2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // lblSinalOperacao
+            // 
+            this.lblSinalOperacao.AutoSize = true;
+            this.lblSinalOperacao.BackColor = System.Drawing.Color.Transparent;
+            this.lblSinalOperacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.lblSinalOperacao.Location = new System.Drawing.Point(516, 29);
+            this.lblSinalOperacao.Name = "lblSinalOperacao";
+            this.lblSinalOperacao.Size = new System.Drawing.Size(21, 24);
+            this.lblSinalOperacao.TabIndex = 27;
+            this.lblSinalOperacao.Text = "+";
+            // 
+            // btnCalcular
+            // 
+            this.btnCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalcular.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCalcular.Location = new System.Drawing.Point(415, 61);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(223, 32);
+            this.btnCalcular.TabIndex = 28;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label2.Location = new System.Drawing.Point(644, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(21, 24);
+            this.label2.TabIndex = 29;
+            this.label2.Text = "=";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.lblResultado.Location = new System.Drawing.Point(671, 29);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(0, 24);
+            this.lblResultado.TabIndex = 30;
+            // 
+            // txtResultado1
+            // 
+            this.txtResultado1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtResultado1.Location = new System.Drawing.Point(415, 99);
+            this.txtResultado1.Name = "txtResultado1";
+            this.txtResultado1.Size = new System.Drawing.Size(95, 29);
+            this.txtResultado1.TabIndex = 31;
+            this.txtResultado1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtResultado1.TextChanged += new System.EventHandler(this.txtResultado1_TextChanged);
+            // 
+            // txtValor2Replica
+            // 
+            this.txtValor2Replica.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtValor2Replica.Location = new System.Drawing.Point(543, 99);
+            this.txtValor2Replica.Name = "txtValor2Replica";
+            this.txtValor2Replica.Size = new System.Drawing.Size(95, 29);
+            this.txtValor2Replica.TabIndex = 32;
+            this.txtValor2Replica.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // btnCalcular2
+            // 
+            this.btnCalcular2.Location = new System.Drawing.Point(415, 134);
+            this.btnCalcular2.Name = "btnCalcular2";
+            this.btnCalcular2.Size = new System.Drawing.Size(223, 32);
+            this.btnCalcular2.TabIndex = 33;
+            this.btnCalcular2.Text = "Calcular2";
+            this.btnCalcular2.UseVisualStyleBackColor = true;
+            this.btnCalcular2.Click += new System.EventHandler(this.btnCalcular2_Click);
+            // 
+            // txtValor1Replica
+            // 
+            this.txtValor1Replica.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtValor1Replica.Location = new System.Drawing.Point(415, 172);
+            this.txtValor1Replica.Name = "txtValor1Replica";
+            this.txtValor1Replica.Size = new System.Drawing.Size(95, 29);
+            this.txtValor1Replica.TabIndex = 34;
+            this.txtValor1Replica.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValor1Replica.TextChanged += new System.EventHandler(this.txtValor1Replica_TextChanged);
+            // 
+            // txtResultado2Replica
+            // 
+            this.txtResultado2Replica.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.txtResultado2Replica.Location = new System.Drawing.Point(543, 172);
+            this.txtResultado2Replica.Name = "txtResultado2Replica";
+            this.txtResultado2Replica.Size = new System.Drawing.Size(94, 29);
+            this.txtResultado2Replica.TabIndex = 35;
+            this.txtResultado2Replica.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtResultado2Replica.TextChanged += new System.EventHandler(this.txtResultado2Replica_TextChanged);
+            // 
+            // btnCalcular3
+            // 
+            this.btnCalcular3.Location = new System.Drawing.Point(415, 207);
+            this.btnCalcular3.Name = "btnCalcular3";
+            this.btnCalcular3.Size = new System.Drawing.Size(223, 32);
+            this.btnCalcular3.TabIndex = 36;
+            this.btnCalcular3.Text = "Calcular3";
+            this.btnCalcular3.UseVisualStyleBackColor = true;
+            this.btnCalcular3.Click += new System.EventHandler(this.btnCalcular3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label1.Location = new System.Drawing.Point(644, 102);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(21, 24);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "=";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label3.Location = new System.Drawing.Point(643, 175);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 24);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "=";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label4.Location = new System.Drawing.Point(516, 102);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(16, 24);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "-";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label5.Location = new System.Drawing.Point(516, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(17, 24);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "*";
+            // 
+            // lblResultado2
+            // 
+            this.lblResultado2.AutoSize = true;
+            this.lblResultado2.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.lblResultado2.Location = new System.Drawing.Point(671, 102);
+            this.lblResultado2.Name = "lblResultado2";
+            this.lblResultado2.Size = new System.Drawing.Size(0, 24);
+            this.lblResultado2.TabIndex = 41;
+            // 
+            // lblResultado3
+            // 
+            this.lblResultado3.AutoSize = true;
+            this.lblResultado3.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.lblResultado3.Location = new System.Drawing.Point(670, 175);
+            this.lblResultado3.Name = "lblResultado3";
+            this.lblResultado3.Size = new System.Drawing.Size(0, 24);
+            this.lblResultado3.TabIndex = 42;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 307);
+            this.ClientSize = new System.Drawing.Size(825, 307);
+            this.Controls.Add(this.lblResultado3);
+            this.Controls.Add(this.lblResultado2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnCalcular3);
+            this.Controls.Add(this.txtResultado2Replica);
+            this.Controls.Add(this.txtValor1Replica);
+            this.Controls.Add(this.btnCalcular2);
+            this.Controls.Add(this.txtValor2Replica);
+            this.Controls.Add(this.txtResultado1);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.lblSinalOperacao);
+            this.Controls.Add(this.txtValor2);
+            this.Controls.Add(this.txtValor1);
             this.Controls.Add(this.btnRaiz);
             this.Controls.Add(this.btnExponenciacao);
             this.Controls.Add(this.btnMod);
@@ -444,6 +665,24 @@
         private System.Windows.Forms.Button btnMod;
         private System.Windows.Forms.Button btnExponenciacao;
         private System.Windows.Forms.Button btnRaiz;
+        private System.Windows.Forms.TextBox txtValor1;
+        private System.Windows.Forms.TextBox txtValor2;
+        private System.Windows.Forms.Label lblSinalOperacao;
+        private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.TextBox txtResultado1;
+        private System.Windows.Forms.TextBox txtValor2Replica;
+        private System.Windows.Forms.Button btnCalcular2;
+        private System.Windows.Forms.TextBox txtValor1Replica;
+        private System.Windows.Forms.TextBox txtResultado2Replica;
+        private System.Windows.Forms.Button btnCalcular3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblResultado2;
+        private System.Windows.Forms.Label lblResultado3;
     }
 }
 

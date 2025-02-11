@@ -8,3 +8,13 @@ C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calculadora\calculadora\o
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calculadora\calculadora\obj\Debug\calculadora.exe
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\calculadora\calculadora\obj\Debug\calculadora.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\bin\Debug\calculadora.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\bin\Debug\calculadora.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\bin\Debug\calculadora.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\calculadora\calculadora\obj\Debug\calculadora.pdb
