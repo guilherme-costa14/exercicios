@@ -482,6 +482,7 @@
             this.txtValor2Replica.Size = new System.Drawing.Size(95, 29);
             this.txtValor2Replica.TabIndex = 32;
             this.txtValor2Replica.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValor2Replica.TextChanged += new System.EventHandler(this.txtValor2Replica_TextChanged);
             // 
             // btnCalcular2
             // 

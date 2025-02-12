@@ -134,7 +134,6 @@ namespace calculadora
             if (operacao == "SOMA")
             {
                 txtVisor.Text = Convert.ToString(valor1 + valor2);
-                lblResultado.Text = Convert.ToString(valor1 + valor2);
             }
             else if(operacao == "SUB")
             {
@@ -246,7 +245,7 @@ namespace calculadora
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txtValor1_TextChanged(object sender, EventArgs e)
@@ -254,24 +253,23 @@ namespace calculadora
             if (txtValor1.Text != "")
             {
                 n1 = decimal.Parse(txtValor1.Text, CultureInfo.InvariantCulture);
-                txtValor1Replica.Text = Convert.ToString(n1);
-                sinalOperacao = "SOMA";
+                sinalOperacao = "MAIS";
             }
         }
 
         private void txtResultado1_TextChanged(object sender, EventArgs e)
         {
-            if (txtResultado1.Text != "")
+            if(txtResultado1.Text != "")
             {
                 n1 = decimal.Parse(txtResultado1.Text, CultureInfo.InvariantCulture);
-                sinalOperacao = "SUB";
+                sinalOperacao = "MENOS";
             }
         }
 
         private void btnCalcular2_Click(object sender, EventArgs e)
         {
             n2 = decimal.Parse(txtValor2Replica.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "SUB")
+            if(sinalOperacao == "MENOS")
             {
                 lblResultado2.Text = Convert.ToString(n1 - n2);
                 txtResultado2Replica.Text = lblResultado2.Text;
@@ -281,7 +279,7 @@ namespace calculadora
         private void btnCalcular3_Click(object sender, EventArgs e)
         {
             n2 = decimal.Parse(txtResultado2Replica.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "MULT")
+            if(sinalOperacao == "MULTIPLICACAO")
             {
                 lblResultado3.Text = Convert.ToString(n1 * n2);
             }
@@ -289,10 +287,10 @@ namespace calculadora
 
         private void txtValor1Replica_TextChanged(object sender, EventArgs e)
         {
-            if (txtValor1Replica.Text != "")
+            if(txtValor1Replica.Text != "")
             {
                 n1 = decimal.Parse(txtValor1Replica.Text, CultureInfo.InvariantCulture);
-                sinalOperacao = "MULT";
+                sinalOperacao = "MULTIPLICACAO";
             }
         }
 
@@ -301,16 +299,21 @@ namespace calculadora
 
         }
 
+        private void txtValor2Replica_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             n2 = decimal.Parse(txtValor2.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "SOMA")
+            if(sinalOperacao == "MAIS")
             {
                 lblResultado.Text = Convert.ToString(n1 + n2);
-                txtResultado1.Text = lblResultado.Text;
+                txtValor1Replica.Text = Convert.ToString(n1);
                 txtValor2Replica.Text = Convert.ToString(n2);
-            } 
-            
+                txtResultado1.Text = lblResultado.Text;
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
