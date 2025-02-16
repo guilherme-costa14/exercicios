@@ -327,8 +327,9 @@ namespace calculadora
 
         private void btnCalcular5_Click(object sender, EventArgs e)
         {
+
             valor4 = decimal.Parse(txtValor4.Text, CultureInfo.InvariantCulture);
-            if(valor4 % 2 == 0)
+            if (valor4 % 2 == 0)
             {
                 lblResultadoValor4.Text = ("É par");
             }
@@ -338,7 +339,7 @@ namespace calculadora
             }
 
             valor5 = decimal.Parse(txtValor5.Text, CultureInfo.InvariantCulture);
-            if(valor5 % 2 == 0)
+            if (valor5 % 2 == 0)
             {
                 lblResultadoValor5.Text = ("É par");
             }
@@ -348,7 +349,7 @@ namespace calculadora
             }
 
             valor6 = decimal.Parse(txtValor6.Text, CultureInfo.InvariantCulture);
-            if(valor6 % 2 == 0)
+            if (valor6 % 2 == 0)
             {
                 lblResultadoValor6.Text = ("É par");
             }
@@ -358,7 +359,7 @@ namespace calculadora
             }
 
             valor7 = decimal.Parse(txtValor7.Text, CultureInfo.InvariantCulture);
-            if(valor7 % 2 == 0)
+            if (valor7 % 2 == 0)
             {
                 lblResultadoValor7.Text = ("É par");
             }
