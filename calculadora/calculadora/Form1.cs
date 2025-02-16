@@ -15,7 +15,7 @@ namespace calculadora
     {
         decimal valor1 = 0, valor2 = 0;
         string operacao = "";
-        decimal n1 = 0, n2 = 0;
+        decimal n1 = 0, n2 = 0, valor4 = 0, valor5 = 0, valor6 = 0, valor7 = 0;
         string sinalOperacao = "";
 
         public Form1()
@@ -260,14 +260,11 @@ namespace calculadora
 
         private void btnCalcular2_Click(object sender, EventArgs e)
         {
-            // Pegando os valores diretamente dos campos
             n1 = decimal.Parse(txtResultado1.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtValor2Replica.Text, CultureInfo.InvariantCulture);
 
-            // Definindo explicitamente que a operação é multiplicação
             sinalOperacao = "MENOS";
 
-            // Verificando se a operação é multiplicação e realizando o cálculo
             if (sinalOperacao == "MENOS")
             {
                 lblResultado2.Text = (n1 - n2).ToString(CultureInfo.InvariantCulture);
@@ -277,15 +274,11 @@ namespace calculadora
 
         private void btnCalcular3_Click(object sender, EventArgs e)
         {
-
-            // Pegando os valores diretamente dos campos
             n1 = decimal.Parse(txtValor1Replica.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtResultado2Replica.Text, CultureInfo.InvariantCulture);
 
-            // Definindo explicitamente que a operação é multiplicação
             sinalOperacao = "MULTIPLICACAO";
 
-            // Verificando se a operação é multiplicação e realizando o cálculo
             if (sinalOperacao == "MULTIPLICACAO")
             {
                 lblResultado3.Text = (n1 * n2).ToString(CultureInfo.InvariantCulture);
@@ -295,6 +288,26 @@ namespace calculadora
         private void txtValor1Replica_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtValor4_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnRecalcular_Click(object sender, EventArgs e)
+        {
+            txtValor4.Clear();
+            lblResultadoValor4.Text = "";
+
+            txtValor5.Clear();
+            lblResultadoValor5.Text = "";
+
+            txtValor6.Clear();
+            lblResultadoValor6.Text = "";
+
+            txtValor7.Clear();
+            lblResultadoValor7.Text = "";
         }
 
         private void txtResultado2Replica_TextChanged(object sender, EventArgs e)
@@ -307,16 +320,61 @@ namespace calculadora
             
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular5_Click(object sender, EventArgs e)
+        {
+            valor4 = decimal.Parse(txtValor4.Text, CultureInfo.InvariantCulture);
+            if(valor4 % 2 == 0)
+            {
+                lblResultadoValor4.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor4.Text = ("É ímpar");
+            }
+
+            valor5 = decimal.Parse(txtValor5.Text, CultureInfo.InvariantCulture);
+            if(valor5 % 2 == 0)
+            {
+                lblResultadoValor5.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor5.Text = ("É ímpar");
+            }
+
+            valor6 = decimal.Parse(txtValor6.Text, CultureInfo.InvariantCulture);
+            if(valor6 % 2 == 0)
+            {
+                lblResultadoValor6.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor6.Text = ("É ímpar");
+            }
+
+            valor7 = decimal.Parse(txtValor7.Text, CultureInfo.InvariantCulture);
+            if(valor7 % 2 == 0)
+            {
+                lblResultadoValor7.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor7.Text = ("É ímpar");
+            }
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            // Pegando os valores diretamente dos campos
             n1 = decimal.Parse(txtValor1.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtValor2.Text, CultureInfo.InvariantCulture);
 
-            // Definindo explicitamente que a operação é multiplicação
             sinalOperacao = "MAIS";
 
-            // Verificando se a operação é multiplicação e realizando o cálculo
             if (sinalOperacao == "MAIS")
             {
                 lblResultado.Text = (n1 * n2).ToString(CultureInfo.InvariantCulture);
