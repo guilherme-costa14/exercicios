@@ -15,7 +15,7 @@ namespace calculadora
     {
         decimal valor1 = 0, valor2 = 0;
         string operacao = "";
-        decimal n1 = 0, n2 = 0;
+        decimal n1 = 0, n2 = 0, valor4 = 0, valor5 = 0, valor6 = 0, valor7 = 0;
         string sinalOperacao = "";
 
         public Form1()
@@ -134,7 +134,6 @@ namespace calculadora
             if (operacao == "SOMA")
             {
                 txtVisor.Text = Convert.ToString(valor1 + valor2);
-                lblResultado.Text = Convert.ToString(valor1 + valor2);
             }
             else if(operacao == "SUB")
             {
@@ -246,54 +245,69 @@ namespace calculadora
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txtValor1_TextChanged(object sender, EventArgs e)
         {
-            if (txtValor1.Text != "")
-            {
-                n1 = decimal.Parse(txtValor1.Text, CultureInfo.InvariantCulture);
-                txtValor1Replica.Text = Convert.ToString(n1);
-                sinalOperacao = "SOMA";
-            }
+            
         }
 
         private void txtResultado1_TextChanged(object sender, EventArgs e)
         {
-            if (txtResultado1.Text != "")
-            {
-                n1 = decimal.Parse(txtResultado1.Text, CultureInfo.InvariantCulture);
-                sinalOperacao = "SUB";
-            }
+         
         }
 
         private void btnCalcular2_Click(object sender, EventArgs e)
         {
+            n1 = decimal.Parse(txtResultado1.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtValor2Replica.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "SUB")
+
+            sinalOperacao = "MENOS";
+
+            if (sinalOperacao == "MENOS")
             {
-                lblResultado2.Text = Convert.ToString(n1 - n2);
+                lblResultado2.Text = (n1 - n2).ToString(CultureInfo.InvariantCulture);
                 txtResultado2Replica.Text = lblResultado2.Text;
             }
         }
 
         private void btnCalcular3_Click(object sender, EventArgs e)
         {
+            n1 = decimal.Parse(txtValor1Replica.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtResultado2Replica.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "MULT")
+
+            sinalOperacao = "MULTIPLICACAO";
+
+            if (sinalOperacao == "MULTIPLICACAO")
             {
-                lblResultado3.Text = Convert.ToString(n1 * n2);
+                lblResultado3.Text = (n1 * n2).ToString(CultureInfo.InvariantCulture);
             }
         }
 
         private void txtValor1Replica_TextChanged(object sender, EventArgs e)
         {
-            if (txtValor1Replica.Text != "")
-            {
-                n1 = decimal.Parse(txtValor1Replica.Text, CultureInfo.InvariantCulture);
-                sinalOperacao = "MULT";
-            }
+            
+        }
+
+        private void txtValor4_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnRecalcular_Click(object sender, EventArgs e)
+        {
+            txtValor4.Clear();
+            lblResultadoValor4.Text = "";
+
+            txtValor5.Clear();
+            lblResultadoValor5.Text = "";
+
+            txtValor6.Clear();
+            lblResultadoValor6.Text = "";
+
+            txtValor7.Clear();
+            lblResultadoValor7.Text = "";
         }
 
         private void txtResultado2Replica_TextChanged(object sender, EventArgs e)
@@ -301,16 +315,74 @@ namespace calculadora
 
         }
 
+        private void txtValor2Replica_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular5_Click(object sender, EventArgs e)
+        {
+
+            valor4 = decimal.Parse(txtValor4.Text, CultureInfo.InvariantCulture);
+            if (valor4 % 2 == 0)
+            {
+                lblResultadoValor4.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor4.Text = ("É ímpar");
+            }
+
+            valor5 = decimal.Parse(txtValor5.Text, CultureInfo.InvariantCulture);
+            if (valor5 % 2 == 0)
+            {
+                lblResultadoValor5.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor5.Text = ("É ímpar");
+            }
+
+            valor6 = decimal.Parse(txtValor6.Text, CultureInfo.InvariantCulture);
+            if (valor6 % 2 == 0)
+            {
+                lblResultadoValor6.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor6.Text = ("É ímpar");
+            }
+
+            valor7 = decimal.Parse(txtValor7.Text, CultureInfo.InvariantCulture);
+            if (valor7 % 2 == 0)
+            {
+                lblResultadoValor7.Text = ("É par");
+            }
+            else
+            {
+                lblResultadoValor7.Text = ("É ímpar");
+            }
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            n1 = decimal.Parse(txtValor1.Text, CultureInfo.InvariantCulture);
             n2 = decimal.Parse(txtValor2.Text, CultureInfo.InvariantCulture);
-            if (sinalOperacao == "SOMA")
+
+            sinalOperacao = "MAIS";
+
+            if (sinalOperacao == "MAIS")
             {
-                lblResultado.Text = Convert.ToString(n1 + n2);
-                txtResultado1.Text = lblResultado.Text;
+                lblResultado.Text = (n1 * n2).ToString(CultureInfo.InvariantCulture);
+                txtValor1Replica.Text = Convert.ToString(n1);
                 txtValor2Replica.Text = Convert.ToString(n2);
-            } 
-            
+                txtResultado1.Text = lblResultado.Text;
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
