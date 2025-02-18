@@ -88,15 +88,16 @@ namespace Login_e_Senha
         {
             try
             {
-                string Selecao = "'%" + txtLogin.Text + "%'";
+                string datasource = "datasource=localhost; username=root; password=; database=db_usuario";
                 conexao = new MySqlConnection(datasource); //até aqui criamos a conexão com o banco
                 //vamos fazer a seleção
-                string sql = "SELECT * FROM tb_loginsenha WHERE usuario LIKE " + Selecao;
-                conexao.Open(); //vamos abrir a conexão para garantir a seleção lá na tabela
+                string sql = "SELECT * FROM tb_loginsenha WHERE usuario LIKE @usuario";
                 //vamos criar um objeto chamado MySQL Comand para armazenar e retornar a seleção
                 MySqlCommand comando = new MySqlCommand(sql, conexao);//esse cara irá armazenar e executar o comando e qual conexão
                                                                       //esse comando vai retornar um valor recuperando informações lá do banco
+                comando.Parameters.AddWithValue("@usuario", "%" + txtLogin.Text + "%");
 
+                conexao.Open(); //vamos abrir a conexão para garantir a seleção lá na tabela
                 MySqlDataReader LER = comando.ExecuteReader();
                 listContato.Items.Clear();//limpar o list view
 
@@ -104,9 +105,9 @@ namespace Login_e_Senha
                 {
                     String[] row =
                     {
-                        LER.GetString(0),
-                        LER.GetString(1),
-                        LER.GetString(2),
+                        LER["ID"].ToString(),
+                        LER["usuario"].ToString(),
+                        LER["senha"].ToString(),
                     };
                     var Linha_ListaContatos = new ListViewItem(row);
 
@@ -122,6 +123,11 @@ namespace Login_e_Senha
             {
                 conexao.Close();
             }
+        }
+
+        private void btnSair2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

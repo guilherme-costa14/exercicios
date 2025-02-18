@@ -39,6 +39,7 @@
             this.listContato = new System.Windows.Forms.ListView();
             this.label4 = new System.Windows.Forms.Label();
             this.btnBuscarCadastro = new System.Windows.Forms.Button();
+            this.btnSair2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,7 +140,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(480, 27);
+            this.label4.Location = new System.Drawing.Point(492, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(308, 20);
             this.label4.TabIndex = 9;
@@ -152,19 +153,34 @@
             this.btnBuscarCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnBuscarCadastro.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscarCadastro.Location = new System.Drawing.Point(583, 183);
+            this.btnBuscarCadastro.Location = new System.Drawing.Point(496, 183);
             this.btnBuscarCadastro.Name = "btnBuscarCadastro";
-            this.btnBuscarCadastro.Size = new System.Drawing.Size(143, 30);
+            this.btnBuscarCadastro.Size = new System.Drawing.Size(151, 30);
             this.btnBuscarCadastro.TabIndex = 10;
             this.btnBuscarCadastro.Text = "Buscar";
             this.btnBuscarCadastro.UseVisualStyleBackColor = false;
             this.btnBuscarCadastro.Click += new System.EventHandler(this.btnBuscarCadastro_Click);
+            // 
+            // btnSair2
+            // 
+            this.btnSair2.BackColor = System.Drawing.Color.Red;
+            this.btnSair2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnSair2.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSair2.Location = new System.Drawing.Point(653, 183);
+            this.btnSair2.Name = "btnSair2";
+            this.btnSair2.Size = new System.Drawing.Size(151, 30);
+            this.btnSair2.TabIndex = 11;
+            this.btnSair2.Text = "Sair";
+            this.btnSair2.UseVisualStyleBackColor = false;
+            this.btnSair2.Click += new System.EventHandler(this.btnSair2_Click);
             // 
             // FormBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 278);
+            this.Controls.Add(this.btnSair2);
             this.Controls.Add(this.btnBuscarCadastro);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listContato);
@@ -197,6 +213,7 @@
         private System.Windows.Forms.ListView listContato;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnBuscarCadastro;
+        private System.Windows.Forms.Button btnSair2;
     }
 }
 
