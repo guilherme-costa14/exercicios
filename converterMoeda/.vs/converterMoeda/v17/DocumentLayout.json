@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{84254EFF-1878-42BA-A05B-DBA7C0B0640D}|converterMoeda\\converterMoeda.csproj|solutionrelative:convertermoeda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84254EFF-1878-42BA-A05B-DBA7C0B0640D}|converterMoeda\\converterMoeda.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\convertermoeda\\convertermoeda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{84254EFF-1878-42BA-A05B-DBA7C0B0640D}|converterMoeda\\converterMoeda.csproj|C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\converterMoeda\\convertermoeda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{84254EFF-1878-42BA-A05B-DBA7C0B0640D}|converterMoeda\\converterMoeda.csproj|solutionrelative:convertermoeda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "converterMoeda\\Form1.cs",
               "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\converterMoeda\\converterMoeda\\Form1.cs",
               "RelativeToolTip": "converterMoeda\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwC4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T19:10:51.222Z",
               "EditorCaption": ""
@@ -46,8 +46,7 @@
               "ToolTip": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\converterMoeda\\converterMoeda\\Form1.cs [Design]",
               "RelativeToolTip": "converterMoeda\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T19:04:32.586Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-24T19:04:32.586Z"
             }
           ]
         }

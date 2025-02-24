@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\bin\Debug\convertendoIdadeEmAnosEmDias.exe.config
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\bin\Debug\convertendoIdadeEmAnosEmDias.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\bin\Debug\convertendoIdadeEmAnosEmDias.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.Form1.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\convertendoIdadeEmAnosEmDias\convertendoIdadeEmAnosEmDias\obj\Debug\convertendoIdadeEmAnosEmDias.pdb
