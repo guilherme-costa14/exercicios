@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\teladelogin\\teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -10,16 +14,12 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|telaDeLogin||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\teladelogin\\teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\teladelogin\\teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\teladelogin\\teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|solutionrelative:teladelogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07E274EA-21EA-4A49-A5D3-A136A83A4BAD}|telaDeLogin\\telaDeLogin.csproj|c:\\users\\guilherme.smcosta\\documents\\github\\exercicios\\teladelogin\\teladelogin\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -33,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,7 +41,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "telaDeLogin",
               "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\telaDeLogin\\telaDeLogin.csproj",
               "RelativeDocumentMoniker": "telaDeLogin\\telaDeLogin.csproj",
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\telaDeLogin\\FormLogin.cs",
               "RelativeDocumentMoniker": "telaDeLogin\\FormLogin.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\telaDeLogin\\FormLogin.cs",
               "RelativeDocumentMoniker": "telaDeLogin\\FormLogin.cs",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\telaDeLogin\\Form1.cs",
               "RelativeDocumentMoniker": "telaDeLogin\\Form1.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\guilherme.smcosta\\Documents\\GitHub\\exercicios\\telaDeLogin\\telaDeLogin\\Form1.cs",
               "RelativeDocumentMoniker": "telaDeLogin\\Form1.cs",
