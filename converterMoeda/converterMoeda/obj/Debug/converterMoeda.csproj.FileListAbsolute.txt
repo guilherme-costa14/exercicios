@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\bin\Debug\converterMoeda.exe.config
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\bin\Debug\converterMoeda.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\bin\Debug\converterMoeda.pdb
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.Form1.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.exe
+C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\converterMoeda\converterMoeda\obj\Debug\converterMoeda.pdb
