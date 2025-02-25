@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\bin\Debug\imc.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\bin\Debug\imc.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\bin\Debug\imc.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\imc\imc\obj\Debug\imc.pdb
