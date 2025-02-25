@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\bin\Debug\ordemDecrescente.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\bin\Debug\ordemDecrescente.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\bin\Debug\ordemDecrescente.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\ordemDecrescente\ordemDecrescente\obj\Debug\ordemDecrescente.pdb

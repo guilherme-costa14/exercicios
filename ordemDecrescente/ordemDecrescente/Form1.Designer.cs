@@ -32,14 +32,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtValorA = new System.Windows.Forms.TextBox();
+            this.txtValorB = new System.Windows.Forms.TextBox();
+            this.txtValorC = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.txtExibirResultado = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnRecalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,26 +82,26 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Valor C:";
             // 
-            // textBox1
+            // txtValorA
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtValorA.Location = new System.Drawing.Point(110, 73);
+            this.txtValorA.Name = "txtValorA";
+            this.txtValorA.Size = new System.Drawing.Size(100, 20);
+            this.txtValorA.TabIndex = 4;
             // 
-            // textBox2
+            // txtValorB
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtValorB.Location = new System.Drawing.Point(110, 111);
+            this.txtValorB.Name = "txtValorB";
+            this.txtValorB.Size = new System.Drawing.Size(100, 20);
+            this.txtValorB.TabIndex = 5;
             // 
-            // textBox3
+            // txtValorC
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 151);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtValorC.Location = new System.Drawing.Point(110, 151);
+            this.txtValorC.Name = "txtValorC";
+            this.txtValorC.Size = new System.Drawing.Size(100, 20);
+            this.txtValorC.TabIndex = 6;
             // 
             // textBox4
             // 
@@ -123,49 +123,54 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Valores em ordem decrescente";
             // 
-            // label6
+            // txtExibirResultado
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(271, 93);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "label6";
+            this.txtExibirResultado.Location = new System.Drawing.Point(319, 73);
+            this.txtExibirResultado.Name = "txtExibirResultado";
+            this.txtExibirResultado.Size = new System.Drawing.Size(100, 20);
+            this.txtExibirResultado.TabIndex = 9;
             // 
-            // label7
+            // button1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(345, 93);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "label7";
+            this.button1.BackColor = System.Drawing.Color.Green;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(53, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Ordem Decrescente";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label8
+            // btnRecalcular
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(423, 93);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "label8";
+            this.btnRecalcular.BackColor = System.Drawing.Color.Red;
+            this.btnRecalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecalcular.ForeColor = System.Drawing.Color.White;
+            this.btnRecalcular.Location = new System.Drawing.Point(53, 224);
+            this.btnRecalcular.Name = "btnRecalcular";
+            this.btnRecalcular.Size = new System.Drawing.Size(157, 23);
+            this.btnRecalcular.TabIndex = 11;
+            this.btnRecalcular.Text = "Recalcular";
+            this.btnRecalcular.UseVisualStyleBackColor = false;
+            this.btnRecalcular.Click += new System.EventHandler(this.btnRecalcular_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.ClientSize = new System.Drawing.Size(734, 268);
+            this.Controls.Add(this.btnRecalcular);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtExibirResultado);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtValorC);
+            this.Controls.Add(this.txtValorB);
+            this.Controls.Add(this.txtValorA);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -183,14 +188,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtValorA;
+        private System.Windows.Forms.TextBox txtValorB;
+        private System.Windows.Forms.TextBox txtValorC;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtExibirResultado;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRecalcular;
     }
 }
 
