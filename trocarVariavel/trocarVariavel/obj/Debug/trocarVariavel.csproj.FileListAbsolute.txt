@@ -8,3 +8,13 @@ C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\trocarVariavel\trocarVari
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.exe
 C:\Users\guilherme.smcosta\Documents\GitHub\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\bin\Debug\trocarVariavel.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\bin\Debug\trocarVariavel.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\bin\Debug\trocarVariavel.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\trocarVariavel\trocarVariavel\obj\Debug\trocarVariavel.pdb
