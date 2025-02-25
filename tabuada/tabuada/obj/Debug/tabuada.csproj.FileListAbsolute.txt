@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\bin\Debug\tabuada.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\bin\Debug\tabuada.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\bin\Debug\tabuada.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\tabuada\tabuada\obj\Debug\tabuada.pdb
