@@ -1,0 +1,10 @@
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\bin\Debug\maiorNumeroMenorNumero.exe.config
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\bin\Debug\maiorNumeroMenorNumero.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\bin\Debug\maiorNumeroMenorNumero.pdb
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.csproj.AssemblyReference.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.Form1.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.Properties.Resources.resources
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.csproj.GenerateResource.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.exe
+C:\Users\guilherme.smcosta\Documents\exercicios\maiorNumeroMenorNumero\maiorNumeroMenorNumero\obj\Debug\maiorNumeroMenorNumero.pdb
